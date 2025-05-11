@@ -4,6 +4,8 @@ import "hardhat-deploy";
 
 const config: HardhatUserConfig = {
   solidity: "0.8.28",
+  defaultNetwork: "hardhat",
+  networks: {},
   namedAccounts: {
     deployer: {
       default: 0,
