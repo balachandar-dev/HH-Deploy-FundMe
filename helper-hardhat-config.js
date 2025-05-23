@@ -9,6 +9,13 @@ const networkConfig = {
   },
 };
 
+const developmentChains = ["localhost", "hardhat"];
+const DECIMALS = 8;
+const INITIAL_ANSWER = 2;
+
 module.exports = {
   networkConfig,
+  developmentChains,
+  DECIMALS,
+  INITIAL_ANSWER,
 };
